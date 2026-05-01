@@ -1,0 +1,73 @@
+Meeting Transcript
+Project: Camp Pawesome Web App
+Topic: New Client Registration & Onboarding Feature
+Date: April 28, 2026
+Attendees:
+  - Sarah Chen, CEO
+  - Marcus Webb, Project Manager
+  - Priya Nair, Business Analyst
+
+---
+
+Marcus: Alright, let's get started. Sarah, you flagged this as a priority last week — do you want to kick us off with the context?
+
+Sarah: Sure. So right now when a new customer wants to bring their dog to Camp Pawesome, the process is a mess. They call us or email us, we send them a PDF form, they print it, fill it out, scan it back, and then someone on our end manually enters everything into our system. It takes two or three days just to get a dog registered. We've had people just give up and go to a competitor because it felt like too much work.
+
+Priya: How many new registrations are you seeing per month roughly?
+
+Sarah: We're averaging about 60 to 80 new dogs a month right now. But honestly I think we're losing another 20 or 30 because of the friction in the sign-up process. That's real revenue walking out the door.
+
+Marcus: So the ask is to move this whole flow online. What does done look like for you, Sarah?
+
+Sarah: A new customer should be able to go to our website, create an account, add their dog's details, upload their vaccination records, and book their first day — all without ever having to call us or deal with paper. And on our end, we should see it come in automatically, not be doing manual data entry.
+
+Priya: What information do you currently collect during registration?
+
+Sarah: For the owner — name, address, phone, email, emergency contact. For the dog — name, breed, age, weight, spay or neuter status, any known allergies or medical conditions, temperament notes, and their vet's contact information. And then we require proof of current vaccinations for rabies, Bordetella, and DHPP.
+
+Priya: Is the vaccination proof just a document upload or do you need to track the specific dates and expiry?
+
+Sarah: Both. We need the document as a record but we also need to know when vaccines expire so we can flag dogs that are coming up for renewal. Right now that's another manual thing someone checks every week.
+
+Priya: Got it. And what happens after a dog registers? Is there an approval step or are they immediately active?
+
+Sarah: We do a quick review before approving. We want to make sure the vax records are valid and that there are no red flags in the temperament notes. Usually that review takes less than a day if we're on top of it. So ideally the system lets us review and approve from an admin side, and the owner gets an email confirmation when they're approved.
+
+Marcus: What about dogs that are already in the system? Is this just for new clients or does it affect existing ones too?
+
+Sarah: New clients only for this feature. Our existing dogs are already in there — messy as that data is.
+
+Priya: What's your current system — is there something we're integrating with or is this all new?
+
+Sarah: We have a basic website and we use a spreadsheet honestly. There's nothing to integrate with. This would be the start of a proper platform.
+
+Priya: Okay, so greenfield. A few things I want to make sure I understand — you mentioned booking their first day as part of onboarding. Are we talking about a full scheduling and availability system or something simpler like picking a preferred start date that your team then confirms?
+
+Sarah: For now just a preferred start date. Full scheduling is a whole other project. I don't want to boil the ocean here.
+
+Marcus: That's helpful. Priya, anything else you need from Sarah before we talk scope?
+
+Priya: One more thing — multi-dog households. If someone has two dogs, can they register both under the same account?
+
+Sarah: Yes, absolutely. We have plenty of families with two or three dogs. They should be able to add multiple dogs under one owner profile.
+
+Priya: And does each dog go through its own approval?
+
+Sarah: Yes, each dog is reviewed independently. One dog might be fine, the other might need a temperament assessment first.
+
+Marcus: Sarah, roughly — how tech-savvy are your customers? Any concerns about mobile experience?
+
+Sarah: Our customers skew 30 to 50, professionals, mostly using their phones. So yes, it has to work well on mobile. If they have to pinch and zoom to fill out a form we've failed.
+
+Marcus: Noted. Okay, I think we have enough to work with. Priya, can you take this away and put together a scope doc?
+
+Priya: I'll have a draft by end of week. A few things I'm already thinking about — the vaccine expiry tracking is more than just a field, it'll need some notification logic. And the admin approval workflow needs to be designed carefully so it doesn't become a bottleneck if registrations spike. I'll flag any areas where we need to make decisions before I finalize the scope.
+
+Sarah: Perfect. One thing I want to stress — keep the owner-facing side simple. I've seen competitor apps that have 12 steps to register a dog. I want ours to feel like it takes five minutes. If someone gets to step three and gives up, we've failed.
+
+Marcus: We'll keep that front of mind. I'll schedule a scope review for early next week once Priya has the draft. Thanks Sarah.
+
+Sarah: Thanks both. This one's important — let's move fast on it.
+
+---
+[End of transcript]
