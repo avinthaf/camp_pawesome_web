@@ -27,11 +27,11 @@ Sarah: For the owner — name, address, phone, email, emergency contact. For the
 
 Priya: Is the vaccination proof just a document upload or do you need to track the specific dates and expiry?
 
-Sarah: Both. We need the document as a record but we also need to know when vaccines expire so we can flag dogs that are coming up for renewal. Right now that's another manual thing someone checks every week.
+Sarah: Just the document upload and the specific dates — administered and expiry. We need those recorded alongside the file.
 
 Priya: Got it. And what happens after a dog registers? Is there an approval step or are they immediately active?
 
-Sarah: We do a quick review before approving. We want to make sure the vax records are valid and that there are no red flags in the temperament notes. Usually that review takes less than a day if we're on top of it. So ideally the system lets us review and approve from an admin side, and the owner gets an email confirmation when they're approved.
+Sarah: We do a quick review before approving. We want to make sure the vax records are valid and that there are no red flags in the temperament notes. Usually that review takes less than a day if we're on top of it. So ideally the system lets us review and approve from an admin side.
 
 Marcus: What about dogs that are already in the system? Is this just for new clients or does it affect existing ones too?
 
@@ -59,9 +59,13 @@ Marcus: Sarah, roughly — how tech-savvy are your customers? Any concerns about
 
 Sarah: Our customers skew 30 to 50, professionals, mostly using their phones. So yes, it has to work well on mobile. If they have to pinch and zoom to fill out a form we've failed.
 
+Priya: And when a dog comes up for review, is it an all-or-nothing decision — approve or reject — or can staff approve the vaccines but flag the temperament separately for follow-up?
+
+Sarah: Keep it simple. Approve or reject the whole dog. If we need more info on temperament we'll just reject and send a note. We don't need partial states, that'll just confuse the team.
+
 Marcus: Noted. Okay, I think we have enough to work with. Priya, can you take this away and put together a scope doc?
 
-Priya: I'll have a draft by end of week. A few things I'm already thinking about — the vaccine expiry tracking is more than just a field, it'll need some notification logic. And the admin approval workflow needs to be designed carefully so it doesn't become a bottleneck if registrations spike. I'll flag any areas where we need to make decisions before I finalize the scope.
+Priya: I'll have a draft by end of week. The admin approval workflow is the main thing I want to make sure we design carefully so it doesn't become a bottleneck.
 
 Sarah: Perfect. One thing I want to stress — keep the owner-facing side simple. I've seen competitor apps that have 12 steps to register a dog. I want ours to feel like it takes five minutes. If someone gets to step three and gives up, we've failed.
 
